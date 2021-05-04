@@ -1,5 +1,5 @@
 # Online Compiler using Cloud Computing-Debug Entity
-<p>Our application follows the structure below:</p>
+<p>Our application follows the structure below: </p>
 <table>
 <thead>
 <tr>
