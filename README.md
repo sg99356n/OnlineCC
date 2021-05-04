@@ -1,4 +1,4 @@
-
+# Online Compiler using Cloud Computing-Debug Entity
 <p>Our application follows the structure below:</p>
 <table>
 <thead>
@@ -14,23 +14,15 @@
 </tr>
 <tr>
 <td>server</td>
-<td>This is the Django application folder where important files such as views.py, admin.py, and the migrations folder are housed.</td>
+<td>This is the Flask application folder where important files such as app.py, config.py, and the application folder are housed.</td>
 </tr>
 <tr>
 <td>TeamPhotos</td>
 <td>This folder contains the photos of each team member that are used on the project Wiki page.</td>
 </tr>
 <tr>
-<td>media</td>
-<td>This folder houses all the user-uploaded images submitted via the image upload page. If this folder is deleted, a new one will be automatically generated when a user uploads another image.</td>
-</tr>
-<tr>
-<td>client</td>
-<td>This folder contains the React, HTML, CSS, Javascript, Typescript code files for all our application pages homepage, image upload, repository, chat, settings, calendar, results etc.</td>
-</tr>
-<tr>
-<td>db.sqlite3</td>
-<td>This is the default Django database file created during the creation of an application. We did not use a database in our implementation, however, this file is still needed to keep all dependencies intact.</td>
+<td>user</td>
+<td>This folder contains the HTML, CSS, Javascript files for all our application pages homepage, Login and Registration Page, Drop down menu for choosing languages, run, save, download buttons, input are and results etc.</td>
 </tr>
 <tr>
 <td>manage.py</td>
@@ -38,7 +30,7 @@
 </tr>
 <tr>
 <td>requirements</td>
-<td>This file specifies all the libraries required for our python, django backend server to function. To install use command "pip install -r requirements".</td>
+<td>This file specifies all the libraries required for our python, flask backend server to function. To install use command "pip install -r requirements".</td>
 </tr>
 <tr>
 <td>package.json</td>
