@@ -1,5 +1,5 @@
 # Online Compiler using Cloud Computing-Debug Entity
-<p>Our application follows the structure below: </p>
+<p>Our application follows the structure below:</p>
 <table>
 <thead>
 <tr>
@@ -13,8 +13,8 @@
 <td>This folder contains all the Project Deliverable files featured on the project Wiki page.</td>
 </tr>
 <tr>
-<td>server</td>
-<td>This is the Flask application folder where important files such as app.py, config.py, and the application folder are housed.</td>
+<td>venv</td>
+<td>This is the Flask application's virtualenv folder where important files such as app.py, config.py, and scripts and packages are included that functions our application in Flask.</td>
 </tr>
 <tr>
 <td>TeamPhotos</td>
@@ -25,16 +25,12 @@
 <td>This folder contains the HTML, CSS, Javascript files for all our application pages homepage, Login and Registration Page, Drop down menu for choosing languages, run, save, download buttons, input are and results etc.</td>
 </tr>
 <tr>
-<td>manage.py</td>
-<td>This is a command-line utility that allows us to run our Django application. The command to run the server is: "python manage.py runserver".</td>
+<td>application</td>
+<td>This is a folder that has every files related to our app like forms.py, init.py, code_save.py etc. How to run our application please refer below the installation manual and user manual links.</td>
 </tr>
 <tr>
 <td>requirements</td>
 <td>This file specifies all the libraries required for our python, flask backend server to function. To install use command "pip install -r requirements".</td>
-</tr>
-<tr>
-<td>package.json</td>
-<td>This file specifies all the dependencies required for our React fronted client to funtion. To install use command "npm install".</td>
 </tr>
 </tbody>
 </table>
